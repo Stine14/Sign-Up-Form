@@ -1,0 +1,232 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    background: url('subdi.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.login-box {
+    background-color: #0e033c63;
+    padding: 30px;
+    border-radius: 50px;
+    width: 300px;
+    position:absolute;
+    left: 350px;
+    box-shadow: 0px 10px 30px rgba(216, 210, 210, 0.2);
+    position: relative;
+
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d20d0d;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #5ca0d3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #508dbc;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.remember-me label {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    width: 30%;
+    display: inline-block;
+}
+
+.social img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.side-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    position: relative;
+    left: 730px;
+    bottom: 540px;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+button.reserve-btn
+{
+    width: 150px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px; 
+    font-size: 16px;
+    color: rgb(246, 239, 239);
+    cursor: pointer;
+    right: 200px;
+}
+button.call-btn
+{
+width: 150px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px; 
+    font-size: 16px;
+    color: rgb(255, 249, 249);
+    cursor: pointer;
+}
+button.reserve-btn {
+    background-color: #28a745;
+}
+
+button.reserve-btn:hover {
+    background-color: #0eeb3e;
+}
+
+button.call-btn {
+    background-color: #62c033;
+    display: flex;
+    align-items: center;
+}
+
+button.call-btn img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+button.call-btn:hover {
+    background-color: #155204d4;
+}
+.hi {
+    position: absolute;
+    bottom: 600px;
+    right:800px;
+    color: rgba(4, 53, 232, 0.489);
+    font-size: 260%;
+    font-style: italic;
+}
+    .visit{
+        position: absolute;
+        bottom: 300px;
+        left: 50px;
+        color: rgba(234, 241, 243, 0.511);
+        font-size: 160%;
+        font-style: italic;
+  }
+  .hello{
+      position:absolute;
+      bottom: 400px;
+      right: 710px;
+      left: 80px;
+      color: rgb(9, 138, 181);
+      font-size: 125%;
+      font-style:oblique;
+  }
+.fb{
+    position:absolute;
+    bottom:320px;
+    justify-content: center;
+    align-items: center;
+    left: 260px;
+    color: rgb(120, 148, 218);
+    bottom: 250px;
+  
+ }
+ .google{
+ 
+   position:absolute;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   left: 150px;
+   bottom:250px;
+ }
+ .ig{
+   position:absolute;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   left: 200px;
+   bottom:250px;
+
+ }
+ .x{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    left: 90px;
+    bottom:250px;
+  }
+  
